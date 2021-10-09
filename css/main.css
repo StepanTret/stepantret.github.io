@@ -756,6 +756,7 @@ body::-webkit-scrollbar-thumb:hover {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    overflow: hidden;
 }
 .pricing__block {
     width: 345px;
