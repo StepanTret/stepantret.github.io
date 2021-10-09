@@ -1,3 +1,11 @@
+$(document).ready(function() {
+    $('.header__burger').click(function(event) {
+        $('.header__burger, .header__menu').toggleClass('active');
+        $('body').toggleClass('lock');
+    });
+});
+
+
 let animItems = document.querySelectorAll('._anim-items');
 
 if(animItems.length > 0){
@@ -43,9 +51,3 @@ if(animItems.length > 0){
 
 
 
-$(document).ready(function(){
-    $('.header__burger').click(function(event){
-        $('.header__burger, .header__menu').toggleClass('active');
-        $('body').toggleClass('lock');
-    })
-})
