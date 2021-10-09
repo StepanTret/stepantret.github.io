@@ -1119,7 +1119,7 @@ body::-webkit-scrollbar-thumb:hover {
         width: 30px;
         height: 20px;
         position: relative;
-        z-index: 5;
+        z-index: 6;
     }
     .header__burger span{
         position: absolute;
@@ -1164,21 +1164,25 @@ body::-webkit-scrollbar-thumb:hover {
         top: -100%;
         left: 0;
         width: 100%;
-        height: 100%;
+        height: 0;
         overflow: auto;
-        background-color: #000;
+        background-color: rgba(0, 0, 0, 0.74);
         padding: 90px 0px 0px 0px;
         transition: all .59s ease 0s;
 
     }
     .header__menu.active{
         top: 0;
+        height: 100vh;
     }
     .header__list{
         display: block;
     }
     .header__list li{
         margin-bottom: 20px;
+    }
+    .header__list a{
+        color: #fff;
     }
     .header__link{
         font-size: 24px;
