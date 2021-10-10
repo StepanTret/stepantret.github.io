@@ -11,7 +11,7 @@
     $mail->IsHTML(true);
 
     // от кого письмо
-    $mail->setForm('from@example.com','Клиент');
+    $mail->setForm('stepan-stepan-9696@mail.ru','Клиент');
     // кому отправить
     $mail->addAdress('stepan-stepan-9696@mail.ru');
     // тема письма
