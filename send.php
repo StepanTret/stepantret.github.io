@@ -41,7 +41,7 @@ try {
     $mail->setFrom('mail@yandex.ru', 'Имя отправителя'); // Адрес самой почты и имя отправителя
 
     // Получатель письма
-    $mail->addAddress('coteyem868@specialistblog.com');  
+    $mail->addAddress('stepantret9696@gmail.com');  
     // $mail->addAddress('youremail@gmail.com'); // Ещё один, если нужен
 
     // Прикрипление файлов к письму
