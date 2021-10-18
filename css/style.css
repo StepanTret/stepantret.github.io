@@ -186,6 +186,7 @@ body::-webkit-scrollbar-thumb:hover {
 }
 .wrapper {
 	min-height: 100%;
+	overflow: hidden;
 }
 .header {
 	position: fixed;
