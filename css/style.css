@@ -190,9 +190,7 @@ body::-webkit-scrollbar-thumb:hover {
 .header {
 	position: fixed;
 	width: 100%;
-	top: 0;
-	left: 0;
-	z-index: 2;
+	z-index: 3;
 	background:linear-gradient(#6aeb702f 10%, #45f5c928 50.59%, #42f5b900 99.86%);
 	opacity: 0;
 	transition: .5s;
@@ -487,19 +485,26 @@ body::-webkit-scrollbar-thumb:hover {
 .token__content {
 	display: flex;
 	align-items: center;
+	padding: 100px 0;
 	
 }
 .token__image {
 	position: relative;
 	padding: 10px;
+	width: 307px;
 	transform: scale(0);
 	transition: .7s;
 }
 .token__image._active{
 	transform: scale(1);
 }
-.rectangle img{
-	max-width: 100%;
+.rectangle__wrapper img{
+	width: 306px;
+	height: 219px;
+}
+.vector__wrapper img{
+	width: 74px;
+	height: 74px;
 }
 /* anim */
 .vector{
