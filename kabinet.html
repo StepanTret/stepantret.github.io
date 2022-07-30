@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://use.fontawesome.com/8c412f5b1a.js"></script>
+    <link rel="stylesheet" href="/css/main.css">
+    <title>Личный кабинет</title> 
+</head>
+<body>
+    <!-- контейнер страницы -->
+    <div class="container">
+        <!-- контейнер блоков -->
+        <div class="main">
+            <!-- блок с внешним видом -->
+             <div class="skin__block">
+                <div class="skin__text"><p>Внешний вид</p></div>
+                <!-- область модельки игрока (ширана области - 340рх, высота - 530рх)-->
+                <div class="skin__model"></div>
+                <!-- кнопка сменить скин(ссылка) -->
+                <div class="skin__button">
+                    <a href="#" class="skin__link"><p>Сменить скин</p></a>
+                </div>
+             </div>
+             <!-- контейнер блока информации-баланс -->
+             <div class="info-balans-blocks">
+                <div class="info__block">
+                    <div class="info__text"><p>Информация</p></div>
+                    <!-- блок информации о пользователе -->
+                    <!-- тут уже идут динамические данные, я просто пропишу стиль для текста -->
+                    <div class="infoUser__blocks">                       
+                        <p class="infoUser__text">Ваш ник:</p>
+                        <p class="infoUserData">никнейм3000</p>
+                    </div>
+                    <div class="infoUser__blocks"> 
+                        <p class="infoUser__text">Статус:</p>
+                        <p class="infoUserData">Игрок</p>
+                    </div>
+                    <div class="infoUser__blocks"> 
+                        <p class="infoUser__text">Ваша почта:</p>
+                        <p class="infoUserData">govnoemail</p>
+                    </div>
+                    <div class="infoUser__blocks"> 
+                        <p class="infoUser__text">Последний вход:</p>
+                        <p class="infoUserData">00.00.00</p>
+                    </div>
+                    <div class="infoUser__blocks"> 
+                        <p class="infoUser__text">Дата регистрации:</p>
+                        <p class="infoUserData">00.00.00</p>
+                    </div>
+                    <div class="infoUser__blocks"> 
+                        <p class="infoUser__text">Блокировок:</p>
+                        <p class="infoUserData Ban">1</p>
+                    </div>
+                </div>
+                <!-- блок с балансом -->
+                <div class="balans__blocks">
+                    <div class="balans__text"><p>Баланс</p></div>
+                    <div class="balans__block">
+                        <!-- перезагрузка баланса и пополнение счета -->
+                        <div class="balans__links">
+                            <a href="#" class="reload">
+                                <i class="fa fa-repeat" aria-hidden="true"></i>
+                            </a>
+                            <a href="#" class="plus">
+                                <i class="fa fa-plus" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                        <!-- отображение счета -->
+                        <div class="balans__numbers">1.21  <p>РУБ</p></div>
+                    </div>
+                </div>
+             </div>
+        </div>
+    </div>
+</body>
+</html>
