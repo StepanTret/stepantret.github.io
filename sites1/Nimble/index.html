@@ -1,0 +1,672 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="application/javascript">
+        // Загрузить содержимое <noscript class="loadLater"></noscript>  после загрузки страницы
+        document.addEventListener("DOMContentLoaded", function(event) {
+            var loadLater = document.querySelector('.loadLater');
+            var head = document.querySelector('head');
+            if(loadLater && head){
+                head.insertAdjacentHTML('beforeend', loadLater.innerHTML);
+            }
+        });
+    </script>
+    <link rel="icon" href="/sites1/Nimble/img/Group 22.webp">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Nimble</title>
+</head>
+<body>
+    <div class="wrapper">
+        
+        <header class="header _anim-items _anim-no-hide">
+            <div class="header__content __content">
+                <div class="header__logo">
+                    <div class="logo">
+                        <img src="/sites1/Nimble/img/Group 4.webp" alt="">
+                    </div>
+                    <div class="logo__text">nimble <br>
+                        token</div>
+                </div>
+                <div class="header__burger">
+                    <span></span>
+                 </div>
+                <div class="header__menu">
+                    <div class="header__list">
+                        <div class="header__links">
+                            <a href="#token" class="header__link">О токене</a>
+                            <a href="#partners" class="header__link">Партнёрка</a>
+                            <a href="#sale" class="header__link">Токенсейл</a>
+                            <a href="#stacking" class="header__link">Bounty</a>
+                            <a href="#kibotron" class="header__link">Kibotron</a>
+                        </div>
+                        <div class="header__registr">
+                            <button class="button__registr __button">Регистрация</button>
+                            <a href="html/404.html" class="button__enter">Войти</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div class="back _anim-items _anim-no-hide">
+            <a href="/index.html" class="back__link">back</a>
+        </div>
+        <main id="main" class="main _anim-items _anim-no-hide">
+            <div class="main__social ">
+                <div class="main__social_links">
+                    <a href="" class="social__link">Instagram</a>
+                    <a href="" class="social__link">Telegram</a>
+                    <a href="" class="social__link">Facebook</a>
+                </div>
+            </div>
+            <div class="main__content __content">
+                <div class="main__discription">
+                    <div class="main__title _anim-items _anim-no-hide">
+                        Присоединяйся <br>
+                        к революции в мире <br>
+                        гемблинга <br>
+                    </div>
+                    <div class="main__subtitle _anim-items _anim-no-hide">
+                        100% честность игры и распределения средств
+                    </div>
+                    <div class="main__button">
+                        <button class="button__acc __button _anim-items _anim-no-hide">Открыть аккаунт</button>
+                    </div>
+                </div>
+                <div class="circle-3__wrapper">
+                    <div class="circle-3"></div>
+                </div>
+            </div>
+        </main>
+        <div class="slider  _anim-items _anim-no-hide">
+            <div class="swiper-container image-slider __content slider-1">
+                <div class="swiper-wrapper image-slider__wrapper">
+                    <!--  data-hash="slide-1"  -->
+                    <div class="swiper-slide image-slider__slide">
+                        <!-- контент -->
+                        <div class="image-slider__image">
+                            <div class="block">
+                                <div class="block__group">
+                                    <div class="block__icon">
+                                        <img src="/sites1/Nimble/img/Vector.webp" alt="">
+                                    </div>
+                                    <div class="block__title">Tron</div>
+                                </div>
+                                <div class="block__subtitle">Экслюзивные игры <br>
+                                    на блокчейне Tron</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <!-- контент -->
+                        <div class="image-slider__image">
+                            <div class="block">
+                                <div class="block__group">
+                                    <div class="block__icon">
+                                        <img src="/sites1/Nimble/img/Vector2.webp" alt="">
+                                    </div>
+                                    <div class="block__title">lottery</div>
+                                </div>
+                                <div class="block__subtitle">Лотереи с крупным <br>
+                                    призовым фондом</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <!-- контент -->
+                        <div class="image-slider__image">
+                            <div class="block">
+                                <div class="block__group">
+                                    <div class="block__icon _orange">
+                                        <img src="/sites1/Nimble/img/Vector3.webp" alt="">
+                                    </div>
+                                    <div class="block__title ">stake</div>
+                                </div>
+                                <div class="block__subtitle">Стейкинг и доход от <br>
+                                    стейкинга партнёров</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <!-- контент -->
+                        <div class="image-slider__image">
+                            <div class="block">
+                                <div class="block__group">
+                                    <div class="block__icon">
+                                        <img src="/sites1/Nimble/img/Vector4.webp" alt="">
+                                    </div>
+                                    <div class="block__title">gain</div>
+                                </div>
+                                <div class="block__subtitle">Игровая платформа с <br>
+                                    5 источниками дохода</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+
+                <!-- <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+    
+                <div class="swiper-pagination"></div>
+    
+                <div class="swiper-scrollbar"></div> -->
+            </div>
+        </div>
+        <section id="token" class="token">
+            <div class="token__content __content">
+                <div class="token__image _anim-items _anim-no-hide">
+                    <div class="rectangle__wrapper">
+                        <img class="rectangle" src="/sites1/Nimble/img/Rectangle 6.webp" alt="">
+                    </div>
+                    <div class="vector__wrapper">
+                        <img class="vector" src="/sites1/Nimble/img/Vector5.webp" alt="">
+                    </div>
+                </div>
+                <div class="token__discription">
+                    <div class="token__title _anim-items _anim-no-hide">Nimble Token</div>
+                    <div class="token__subtitle _anim-items _anim-no-hide"><p>Nimble Token – это utility-токен игровой платформы KiboTron,
+                        построенной на смарт-контрактах Tron. Применение технологии
+                        блокчейн обеспечивает 100% честность игры и распределения средств,
+                        мгновенные выплаты бонусов и призовых, и абсолютную анонимность.
+                        </p>
+                    <p>Nimble, в переводе с английского – шустрый токен. Это энергия
+                        платформы, двигатель, создающий постоянную динамику, приток
+                       средств, активность игроков, и поддержание интереса к платформе.
+                       
+                       </p>
+                    <p>Многообразие вариантов применения Nimble Token, его токеномика,
+                        механизмы распределения и майнинга обеспечивают устойчивый рост
+                        стоимости токена в перспективе.</p></div>
+                </div>
+                
+            </div>
+            <div class="token__application __content ">
+                <div class="circle__wrapper">
+                    <div class="circle"></div>
+                </div>
+                <div class="application__title _anim-items _anim-no-hide">Применение токена</div>
+                <ul class="application__ul">
+                    <li class="application__li _anim-items _anim-no-hide">Эксклюзивные игры на платформе KiboTron</li>
+                    <li class="application__li _anim-items _anim-no-hide">Скидки на билеты в лотереи KiboTron с крупным джекпотом</li>
+                    <li class="application__li _anim-items _anim-no-hide">Обмен на дивидендные токены KBT</li>
+                    <li class="application__li _anim-items _anim-no-hide">Стейкинг и доход от стейкинга партнеров</li>
+                    <li class="application__li _anim-items _anim-no-hide">Заработок на баунти-программе</li>
+                    <li class="application__li _anim-items _anim-no-hide">Торговля на криптовалютных биржах</li>
+                </ul>
+            </div>
+        </section>
+        <section id="stacking" class="stacking">
+            <div class="stacking__content __content">
+                <div class="stacking__title _anim-items _anim-no-hide">Стейкинг Nimble Token <p>Доход на стейкинг</p></div>
+                <div class="stacking__subtitle _anim-items _anim-no-hide">Без ускорителя</div>
+                <div class="stacking__subtitle _anim-items _anim-no-hide _green">С ускорителем</div>
+                <div class="stacking__slider">
+                    <div class="slider _anim-items _anim-no-hide">
+                        <div class="swiper-container image-slider __content slider-2">
+                            <div class="swiper-wrapper swiper-stacking image-slider__wrapper">
+                                <!--  data-hash="slide-1"  -->
+                                <div class="swiper-slide stacking-slide  image-slider__slide">
+                                    <!-- контент -->
+                                    <div class="image-slider__image">
+                                       <img src="/sites1/Nimble/img/Group 17.webp" alt="">
+                                    </div>
+                                    <div class="stacking__price">1 - 5 000</div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <!-- контент -->
+                                    <div class="image-slider__image">
+                                        <img src="/sites1/Nimble/img/Group 18.webp" alt="">
+                                    </div>
+                                    <div class="stacking__price">5 001 - 30 000</div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <!-- контент -->
+                                    <div class="image-slider__image">
+                                        <img src="/sites1/Nimble/img/Group 19.webp" alt="">
+                                    </div>
+                                    <div class="stacking__price">30 001 - 100 000</div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <!-- контент -->
+                                    <div class="image-slider__image">
+                                        <img src="/sites1/Nimble/img/Group 20.webp" alt="">
+                                    </div>
+                                    <div class="stacking__price">100 001 - 300 000</div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <!-- контент -->
+                                    <div class="image-slider__image">
+                                        <img src="/sites1/Nimble/img/Group 21.webp" alt="">
+                                    </div>
+                                    <div class="stacking__price">300 001 - 1 000 000</div>
+                                </div>
+                            </div>
+                            
+                            <!-- <div class="swiper-button-prev"></div>
+                            <div class="swiper-button-next"></div>
+                
+                            <div class="swiper-pagination"></div>
+                
+                            <div class="swiper-scrollbar"></div> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="stacking__discription  _anim-items _anim-no-hide"><p>Держатель Nimble Token имеет возможность
+                    получать вознаграждение за хранение токенов
+                    на балансе. Процент стейкинга зависит от текущего
+                    количества Nimble Token на балансе.
+                    
+                    </p>
+                <p>Стейкинг Nimble Token включается с момента
+                    размещения токенов на балансе.
+                    
+                </p>
+                <p>Ускоритель – коэффициент 1.5 к базовому проценту
+                    стейкинга. Применяется для держателей токенов KBT
+                    с количеством от 3000 KBT.</p></div>
+            </div>
+        </section>
+        <section class="character">
+            <div class="character__content __content">
+                <div class="character__token _anim-items _anim-no-hide">
+                    <div class="character__image">
+                        <img src="/sites1/Nimble/img/Group 22.webp" alt="">
+                    </div>
+                    <div class="character__quantity">Максимальное количество токенов</div>
+                    <div class="character__number">1 000 000 000</div>
+                </div>
+                <div class="character__discription">
+                    <div class="character__title _anim-items _anim-no-hide">Характеристики Nimble Token</div>
+                    <div class="character__list">
+                        <ul class="character__ul-1 _anim-items _anim-no-hide">
+                           <li class="character__li-1">Символ:</li>
+                           <li class="character__li-1">Блокчейн:</li>
+                           <li class="character__li-1">Стандарт:</li>
+                           <li class="character__li-1">Общая эмиссия:</li>
+                           <li class="character__li-1">Первичная эмиссия:</li>
+                           <li class="character__li-1">Токенсейл:</li>
+                           <li class="character__li-1">Airdrop:</li>
+                           <li class="character__li-1">Маркетинг:</li> 
+                        </ul>
+                        <ul class="character__ul-2 _anim-items _anim-no-hide">
+                            <li class="character__li-2">NIMB</li>
+                            <li class="character__li-2">Tron</li>
+                            <li class="character__li-2">TRC20</li>
+                            <li class="character__li-2">1 000 000 000</li>
+                            <li class="character__li-2">55 000 000</li>
+                            <li class="character__li-2">30 000 000</li>
+                            <li class="character__li-2">5 000 000</li>
+                            <li class="character__li-2">20 000 000</li> 
+                         </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="sale" class="price">
+            <div class="price__content __content">
+                <div class="price__title _anim-items _anim-no-hide">Token Sale</div>
+
+                <div class="price__slider">
+                    <div class="slider _anim-items _anim-no-hide">
+                        <div class="swiper-container image-slider __content slider-3">
+                            <div class="swiper-wrapper image-slider__wrapper">
+                                <!--  data-hash="slide-1"  -->
+                                <div class="swiper-slide image-slider__slide">
+                                    <!-- контент -->
+                                    <div class="price__block">
+                                        <div class="price__block_title">раунд 1</div>
+                                        <div class="price__titlePrice">$0.01</div>
+                                        <div class="price__subtitlePrice">3 000 000</div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide image-slider__slide">
+                                    <!-- контент -->
+                                    <div class="price__block">
+                                        <div class="price__block_title">раунд 2</div>
+                                        <div class="price__titlePrice">$0.015</div>
+                                        <div class="price__subtitlePrice">3 000 000</div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide image-slider__slide">
+                                    <!-- контент -->
+                                    <div class="price__block">
+                                        <div class="price__block_title">раунд 3</div>
+                                        <div class="price__titlePrice">$0.02</div>
+                                        <div class="price__subtitlePrice">3 000 000</div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide image-slider__slide">
+                                    <!-- контент -->
+                                    <div class="price__block">
+                                        <div class="price__block_title">раунд 4</div>
+                                        <div class="price__titlePrice">$0.025</div>
+                                        <div class="price__subtitlePrice">3 000 000</div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide image-slider__slide">
+                                    <!-- контент -->
+                                    <div class="price__block">
+                                        <div class="price__block_title">раунд 5</div>
+                                        <div class="price__titlePrice">$0.03</div>
+                                        <div class="price__subtitlePrice">3 000 000</div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide image-slider__slide">
+                                    <!-- контент -->
+                                    <div class="price__block">
+                                        <div class="price__block_title">раунд 6</div>
+                                        <div class="price__titlePrice">$0.035</div>
+                                        <div class="price__subtitlePrice">3 000 000</div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide image-slider__slide">
+                                    <!-- контент -->
+                                    <div class="price__block">
+                                        <div class="price__block_title">раунд 7</div>
+                                        <div class="price__titlePrice">$0.04</div>
+                                        <div class="price__subtitlePrice">3 000 000</div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide image-slider__slide">
+                                    <!-- контент -->
+                                    <div class="price__block">
+                                        <div class="price__block_title">раунд 8</div>
+                                        <div class="price__titlePrice">$0.045</div>
+                                        <div class="price__subtitlePrice">3 000 000</div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide image-slider__slide">
+                                    <!-- контент -->
+                                    <div class="price__block">
+                                        <div class="price__block_title">раунд 9</div>
+                                        <div class="price__titlePrice">$0.05</div>
+                                        <div class="price__subtitlePrice">3 000 000</div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide image-slider__slide">
+                                    <!-- контент -->
+                                    <div class="price__block">
+                                        <div class="price__block_title">раунд 10</div>
+                                        <div class="price__titlePrice">$0.055</div>
+                                        <div class="price__subtitlePrice">3 000 000</div>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                            
+                            <!-- <div class="swiper-button-prev"></div>
+                            <div class="swiper-button-next"></div>
+                
+                            <div class="swiper-pagination"></div>
+                
+                            <div class="swiper-scrollbar"></div> -->
+                        </div>
+                    </div>
+                </div>
+            
+            <div class="price__conditions _anim-items _anim-no-hide">
+                <div class="price__border">
+                    <div class="conditions__title">условия </div>
+                    <img class="conditions__img" src="/sites1/Nimble/img/Group 4.webp" alt="">
+                    <div class="conditions__subtitle">Длительность раундов: 
+                    <p>Каждый раунд продолжается до <br> распродажи 3 000 000 Nimble Token</p></div>
+                    <div class="conditions__subtitle"> Валюта покупки: 
+                    <p>TRX, USDT (TRC20), LTC, BTC, DOGE</p></div>
+                    <div class="conditions__subtitle">  Минимальная сумма покупки:
+                    <p>$10.00</p></div>
+                </div>
+                <a href="html/404.html" class="price__button __button">Принять участие</a>
+            </div>
+            </div>
+        </section>
+        <section id="partners" class="partners">
+            <div class="partners__content __content">
+                <div class="partners__image _anim-items _anim-no-hide">
+                    <img src="/sites1/Nimble/img/hand-23.webp" alt="">
+                </div>
+                <div class="partners__discription">
+                    <div class="partners__title _anim-items _anim-no-hide">Партнёрская программа</div>
+                    <div class="partners__list">
+                        <div class="partners__block">
+                            <div class="partners__titlePrice">
+                                <div class="partners__level">Уровень 1</div>
+                                <div class="partners__price __green">личная покупка от $30</div>
+                            </div>
+                            <div class="partners__subtitlePrice">
+                                <div class="partners__border">
+                                    <div class="partners__scale __scale-1 _anim-items "></div>
+                                </div>
+                                <div class="partners__procent __green-proc">15%</div>
+                            </div>
+                        </div>
+                        <div class="partners__block">
+                            <div class="partners__titlePrice">
+                                <div class="partners__level ">Уровень 2</div>
+                                <div class="partners__price __yellow">оборот от $100 </div>
+                            </div>
+                            <div class="partners__subtitlePrice">
+                                <div class="partners__border">
+                                    <div class="partners__scale __scale-2 _anim-items "></div>
+                                </div>
+                                <div class="partners__procent __yellow-proc">7%</div>
+                            </div>
+                        </div>
+                        <div class="partners__block">
+                            <div class="partners__titlePrice">
+                                <div class="partners__level ">Уровень 3</div>
+                                <div class="partners__price __yellow">оборот от $500 </div>
+                            </div>
+                            <div class="partners__subtitlePrice">
+                                <div class="partners__border">
+                                    <div class="partners__scale __scale-2 _anim-items "></div>
+                                </div>
+                                <div class="partners__procent __yellow-proc">7%</div>
+                            </div>
+                        </div>
+                        <div class="partners__block">
+                            <div class="partners__titlePrice">
+                                <div class="partners__level ">Уровень 4</div>
+                                <div class="partners__price __orange">оборот от $1 000 </div>
+                            </div>
+                            <div class="partners__subtitlePrice">
+                                <div class="partners__border">
+                                    <div class="partners__scale __scale-3 _anim-items "></div>
+                                </div>
+                                <div class="partners__procent __orange-proc">5%</div>
+                            </div>
+                        </div>
+                        <div class="partners__block">
+                            <div class="partners__titlePrice">
+                                <div class="partners__level ">Уровень 5</div>
+                                <div class="partners__price __orange">оборот от $3 000 </div>
+                            </div>
+                            <div class="partners__subtitlePrice">
+                                <div class="partners__border">
+                                    <div class="partners__scale __scale-3 _anim-items "></div>
+                                </div>
+                                <div class="partners__procent __orange-proc">5%</div>
+                            </div>
+                        </div>
+                        <div class="partners__block">
+                            <div class="partners__titlePrice">
+                                <div class="partners__level ">Уровень 6</div>
+                                <div class="partners__price __red">оборот от $5 000 </div>
+                            </div>
+                            <div class="partners__subtitlePrice">
+                                <div class="partners__border">
+                                    <div class="partners__scale __scale-4 _anim-items "></div>
+                                </div>
+                                <div class="partners__procent __red-proc">3%</div>
+                            </div>
+                        </div>
+                        <div class="partners__block">
+                            <div class="partners__titlePrice">
+                                <div class="partners__level ">Уровень 7</div>
+                                <div class="partners__price __red">оборот от $10 000 </div>
+                            </div>
+                            <div class="partners__subtitlePrice">
+                                <div class="partners__border">
+                                    <div class="partners__scale __scale-4 _anim-items "></div>
+                                </div>
+                                <div class="partners__procent  __red-proc">3%</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="note _anim-items _anim-no-hide">
+                        <div class="note__icon"><img src="/sites1/Nimble/img/Vector7.webp" alt=""></div>
+                        <div class="note__text">Участник Tokensale имеет возможность <br>
+                            получать вознаграждение за продажу <br>
+                            Nimble Token в своей структуре на 7 уровнях <br>
+                             Уровни структуры, с которых доступен этот бонус, <br>
+                            открываются в зависимости от общего оборота в <br>
+                            структуре, включая собственные покупки участника. <br>
+                            Вознаграждение выплачивается в той валюте, в <br>
+                            которой произошла покупка Nimble Token в <br>
+                            структуре – TRX, USDT, LTC, DTC, DOGE.</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="kibotron" class="kibotron">
+            <div class="kibotron__content __content">
+                <div class="kibotron__icon _anim-items _anim-no-hide"><img src="/sites1/Nimble/img/Vector8.webp" alt=""></div>
+                <div class="kibotron__title _anim-items _anim-no-hide">Kibotron</div>
+                <div class="kibotron__slider">
+                    <div class="slider _anim-items _anim-no-hide">
+                        <div class="swiper-container image-slider __content slider-4">
+                            <div class="swiper-wrapper image-slider__wrapper">
+                                <!--  data-hash="slide-1"  -->
+                                <div class="swiper-slide image-slider__slide">
+                                    <!-- контент -->
+                                    <div class="image-slider__image">
+                                        <div class="kibotron__block">
+                                            <div class="kibotron__block_icon">
+                                                <img src="/sites1/Nimble/img/Group 46.webp" alt="">
+                                            </div>
+                                            <div class="kibotron__block_group">
+                                                
+                                                <div class="kibotron__block__title">100 % честность <br>
+                                                    и прозрачность </div>
+                                                <div class="kibotron__block__subtitle">проведения игр <br>
+                                                    благодаря блокчейн и <br>
+                                                    смарт-контрактам</div>
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <!-- контент -->
+                                    <div class="image-slider__image">
+                                        <div class="kibotron__block">
+                                            <div class="kibotron__block_icon">
+                                                <img src="/sites1/Nimble/img/Group 47.webp" alt="">
+                                            </div>
+                                            <div class="kibotron__block_group">
+                                                
+                                                <div class="kibotron__block__title">мгновенные <br>
+                                                    выплаты</div>
+                                                <div class="kibotron__block__subtitle">призовых и бонусов и <br>
+                                                    легкая конвертация в фиат <br>
+                                                    благодаря популярности <br>
+                                                    Tron (TRX)</div>
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <!-- контент -->
+                                    <div class="image-slider__image">
+                                        <div class="kibotron__block">
+                                            <div class="kibotron__block_icon">
+                                                <img src="/sites1/Nimble/img/Group 48.webp" alt="">
+                                            </div>
+                                            <div class="kibotron__block_group">
+                                                
+                                                <div class="kibotron__block__title">Доступность игр <br>
+                                                    и инструментов</div>
+                                                <div class="kibotron__block__subtitle">для построения бизнеса <br>
+                                                    24/7 из любой точки <br>
+                                                    мира благодаря интернету</div>
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <!-- контент -->
+                                    <div class="image-slider__image">
+                                        <div class="kibotron__block">
+                                            <div class="kibotron__block_icon">
+                                                <img src="/sites1/Nimble/img/Group 46.webp" alt="">
+                                            </div>
+                                            <div class="kibotron__block_group">
+                                                
+                                                <div class="kibotron__block__title">абсолютная <br>
+                                                    анонимность</div>
+                                                <div class="kibotron__block__subtitle">при участии в играх <br>
+                                                    и получении роялти, <br>
+                                                    выигрышей и бонусов от  <br>
+                                                    структуры</div>
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <!-- <div class="swiper-button-prev"></div>
+                            <div class="swiper-button-next"></div>
+                
+                            <div class="swiper-pagination"></div>
+                
+                            <div class="swiper-scrollbar"></div> -->
+                        </div>
+                    </div>
+                </div>
+                <div class="kibotron__subtitle _anim-items _anim-no-hide">MVP-версия игровой платформы KiboTron c действующими <br>
+                    лотереями и количеством пользователей 6000 +</div>
+                <div class="kibotron__button _anim-items _anim-no-hide">
+                    <a href="html/404.html" class="button__kibotron">Перейти</a>
+                </div>
+                <div class="circle-2__wrapper">
+                    <div class="circle-2"></div>
+                </div>
+            </div>
+        </section>
+        <footer class="footer">
+            <div class="footer__content __content">
+                <div class="footer__title _anim-items _anim-no-hide">По вопросам сотрудничества: <p><a href="html/404.html">kibotronmedia@gmail.com</a></p></div>
+                <div class="footer__social">
+                    <div class="footer__links">
+                        <a href="html/404.html" class="footer__link _anim-items _anim-no-hide"><i class="fab fa-telegram-plane"></i> Group</a>
+                        <a href="html/404.html" class="footer__link _anim-items _anim-no-hide"><i class="fab fa-telegram-plane"></i> channel</a>
+                        <a href="html/404.html" class="footer__link _anim-items _anim-no-hide"><i class="fab fa-youtube"></i> Youtube</a>
+                        <a href="html/404.html" class="footer__link _anim-items _anim-no-hide"><i class="fab fa-twitter"></i> twitter</a>
+                        <a href="html/404.html" class="footer__link _anim-items _anim-no-hide"><i class="fab fa-medium-m"></i>Medium</a>
+                    </div>
+                </div>
+                <div class="up _anim-items _anim-no-hide">
+                    <div class="arrow__wrapper">
+                        <a class="arrow" href="#main"></a>
+                    </div>
+                </div>
+            </div>
+            
+        </footer>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
